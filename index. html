@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabarish Pranav | AI & Data Science Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">SP.</a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
+                <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="about">
+        <div class="container hero-content">
+            <p class="subtitle">Hello, I'm</p>
+            <h1>Sabarish Pranav</h1>
+            <h2>B.Tech – Artificial Intelligence & Data Science</h2>
+            <p class="institution">KPR Institute of Engineering and Technology | Coimbatore, India</p>
+            <p class="objective">
+                Motivated first-year Artificial Intelligence and Data Science student interested in programming, artificial intelligence, data science, and emerging technologies. Eager to develop practical skills through projects and continuous learning.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">View My Projects</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Education Section -->
+    <section class="section" id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="card">
+                    <span class="badge">2026 – 2030 (First Year)</span>
+                    <h3>B.Tech – Artificial Intelligence & Data Science</h3>
+                    <p class="place">KPR Institute of Engineering and Technology, Coimbatore, India</p>
+                </div>
+                <div class="card">
+                    <span class="badge">2026</span>
+                    <h3>Higher Secondary (12th)</h3>
+                    <p class="place">Government Boys Higher Secondary School, Pallipalayam, Namakkal District</p>
+                    <p class="score">Percentage: <strong>88.5%</strong></p>
+                </div>
+                <div class="card">
+                    <span class="badge">2024</span>
+                    <h3>SSLC (10th)</h3>
+                    <p class="place">Government Boys Higher Secondary School, Pallipalayam, Namakkal District</p>
+                    <p class="score">Percentage: <strong>94.2%</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Languages Section -->
+    <section class="section bg-alt" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Languages</h2>
+            <div class="grid-2">
+                <div class="card">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python</span>
+                            <span>Basic</span>
+                        </div>
+                        <div class="progress-bar"><div class="progress" style="width: 45%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>C Programming</span>
+                            <span>Beginner</span>
+                        </div>
+                        <div class="progress-bar"><div class="progress" style="width: 35%;"></div></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Languages Known</h3>
+                    <ul class="tag-list">
+                        <li class="tag">Tamil</li>
+                        <li class="tag">English</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="grid-2">
+                <div class="card project-card">
+                    <span class="badge">Smart India Hackathon (SIH)</span>
+                    <h3>Flash Flood Prediction System</h3>
+                    <ul>
+                        <li>Developed a concept for predicting flash floods using technology and data.</li>
+                        <li>Designed a web-based interface.</li>
+                        <li>Included alert and location-based features.</li>
+                    </ul>
+                </div>
+                <div class="card project-card">
+                    <span class="badge">Sustainability</span>
+                    <h3>Waste to Wealth Project</h3>
+                    <ul>
+                        <li>Created a useful product using waste materials.</li>
+                        <li>Focused on recycling and sustainability.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="section bg-alt" id="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <div class="card achievement-card">
+                <span class="trophy">🏆</span>
+                <div>
+                    <h3>Academic Excellence in SSLC</h3>
+                    <p>Secured <strong>Third Mark in school</strong> in the 10th standard with a score of <strong>471/500</strong>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container contact-container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p>Feel free to reach out for collaborations, projects, or opportunities.</p>
+            <div class="contact-cards">
+                <a href="mailto:sabarishpranav2008@gmail.com" class="card contact-card">
+                    <span>📧 Email</span>
+                    <strong>sabarishpranav2008@gmail.com</strong>
+                </a>
+                <a href="tel:+916379792380" class="card contact-card">
+                    <span>📞 Phone</span>
+                    <strong>+91 6379792380</strong>
+                </a>
+                <div class="card contact-card">
+                    <span>📍 Location</span>
+                    <strong>Coimbatore, Tamil Nadu, India</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Sabarish Pranav. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
